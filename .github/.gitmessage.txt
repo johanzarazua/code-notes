@@ -1,0 +1,26 @@
+# <tipo>(<scope>): <resumen en imperativo, <=50 chars>
+# Ej: note(git): modelo de tres areas (working, staging, commit)
+#
+# Tipos:
+#   note   -> nueva nota / conocimiento capturado
+#   docs   -> mejora, correccion o ampliacion de una nota existente
+#   chore  -> mantenimiento del repo (estructura, config, .gitignore)
+#   feat   -> nueva funcionalidad (proyectos de codigo)
+#   fix    -> correccion de bug (proyectos de codigo)
+#   refactor | perf | test | build | ci (proyectos de codigo)
+#
+# scope = area tematica: git, linux, redes, docker, sql, <proyecto>, ...
+
+# --- Tipo de aprendizaje (descomenta el que aplique) ---
+# Aprendizaje: concepto
+# Aprendizaje: patron
+# Aprendizaje: teoria
+# Aprendizaje: herramienta
+# Aprendizaje: comando
+# Aprendizaje: troubleshooting
+
+# --- Resumen: que aprendi / de que trata ---
+Resumen:
+
+# --- Aplicacion / uso: cuando y para que me sirve ---
+Aplicacion:
