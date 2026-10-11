@@ -8,9 +8,30 @@ Cada commit funciona como una micro-ficha de estudio: registra *qué* aprendí y
 
 ## Organización
 
-Las notas se agrupan por área temática (el mismo `scope` que uso en los
-commits): `git`, `linux`, `redes`, `docker`, `sql`, etc. La estructura va
-creciendo a medida que sumo temas.
+Las notas se agrupan **por tema**: cada carpeta es un área temática y coincide
+con el `scope` que uso en los commits (`git`, `linux`, `redes`, `docker`, `sql`,
+etc.). La estructura crece a medida que sumo temas. Los proyectos de código van
+bajo `proyectos/`.
+
+```
+code-notes/
+├── git/
+│   └── git_areas_trabajo.md
+├── linux/
+│   └── linux_gestion_procesos.md
+├── redes/
+│   └── redes_tcp_handshake.md
+└── proyectos/
+    └── log_parser/
+```
+
+### Convención de nombres de archivo
+
+- **snake_case**, sin acentos ni espacios: `gestion_procesos.md`.
+- Incluir el nombre del tema al inicio cuando sea posible, para que el archivo
+  sea identificable aunque se mueva: `git_rebase_interactivo.md`,
+  `redes_tcp_handshake.md`.
+- Extensión `.md`.
 
 ## Convención de commits
 
